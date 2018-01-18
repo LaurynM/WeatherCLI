@@ -3,7 +3,9 @@ var admin = require("./admin.js");
 var request = require("request");
 const fs = require('fs');
 
-switch (process.argv[2]){
+var module = process.argv[2];
+
+switch (module){
   case "user":
   break;
   case "admin":
